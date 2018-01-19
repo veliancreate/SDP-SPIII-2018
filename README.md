@@ -1,7 +1,11 @@
 # SDP-SPIII-2018
 Source code examples for the UG/PG versions of the advanced programming module @ Birkbeck
 
-## Week One
+## Coursework One
+
++ `coursework-one-SML` - code for the first coursework assignment
+
+## Session One
 
 + `java-examples-week-one` 
     + basic helloworld
@@ -14,6 +18,46 @@ Source code examples for the UG/PG versions of the advanced programming module @
 + `scala-examples-week-one` - basic helloworld
 + `groovy-examples-week-one` - basic helloworld
 
-## Week Two
+## Session Two
 
-TBC
++ `week-two-di`
+    + Dependency Injection `HelloWorld` example
++ `week-two-java`
++ `week-two-scala`
++ `week-two-sold`
+	
+## Session Three
+
++ ...
+
+## Session Four
+
++ ...
+
+## Session Five
+
++ ...
+
+## Session Six
+
++ ...
+
+## Session Seven
+
++ ...
+
+## Session Eight
+
++ ...
+
+## Session Nine
+
++ ...
+
+## Session Ten
+
++ ...
+
+## Session Eleven
+
++ ...
