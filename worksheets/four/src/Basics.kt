@@ -25,7 +25,7 @@ fun add(a: Int, b: Int): Int = TODO()
  * @param end the end of the range
  * @return the inclusive Range from start to end
  */
-fun inRange(start: Int, end: Int): ClosedRange<Int> = TODO()
+fun inRange(start: Int, end: Int): IntRange = TODO()
 
 /**
  * Write a function that returns a Range of odd n odd integers starting at 1.
@@ -35,7 +35,7 @@ fun inRange(start: Int, end: Int): ClosedRange<Int> = TODO()
  * @param n the number of odd integers in the range
  * @return a Range of odd integers, excluding the last add integer
  */
-fun oddRange(n: Int): ClosedRange<Int> = TODO()
+fun oddRange(n: Int): IntRange = TODO()
 
 /**
  * Write a function that returns the minimum integer in the Array r.
