@@ -57,9 +57,9 @@ class BasicsKtTest {
      */
     @Test
     fun minWhileTest() {
-        assertTrue(minWhile(Array(55, 6, 24, 32, 1, 16, 12)) == 1)
-        assertTrue(minWhile(Array(2, 3, 4, 5)) == 2)
-        assertTrue(minWhile(Array(99, 98, 45, 100, 107, 12, 1012, 15, 45, 45, 909)) == 12)
+        assertTrue(minWhile(arrayOf(55, 6, 24, 32, 1, 16, 12)) == 1)
+        assertTrue(minWhile(arrayOf(2, 3, 4, 5)) == 2)
+        assertTrue(minWhile(arrayOf(99, 98, 45, 100, 107, 12, 1012, 15, 45, 45, 909)) == 12)
     }
 
     @Test
