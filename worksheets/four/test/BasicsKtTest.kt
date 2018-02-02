@@ -4,6 +4,7 @@ import org.junit.Before
 import org.junit.Test
 import java.math.BigInteger
 import java.util.*
+import kotlin.test.assertTrue
 
 class BasicsKtTest {
     lateinit var n: Random
