@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/two/ex-four/ex-four.iml" filepath="$PROJECT_DIR$/two/ex-four/ex-four.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two/ex-one/ex-one.iml" filepath="$PROJECT_DIR$/two/ex-one/ex-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two/ex-three/ex-three.iml" filepath="$PROJECT_DIR$/two/ex-three/ex-three.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two/ex-two/ex-two.iml" filepath="$PROJECT_DIR$/two/ex-two/ex-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two/two.iml" filepath="$PROJECT_DIR$/two/two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheets-outline-solutions.iml" filepath="$PROJECT_DIR$/worksheets-outline-solutions.iml" />
+    </modules>
+  </component>
+</project>
