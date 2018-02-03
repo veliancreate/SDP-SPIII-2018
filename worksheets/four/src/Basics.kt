@@ -1,14 +1,13 @@
 import java.math.BigInteger
 
 /**
- * This file contains the functions you need
- * to implement. Please make sure to read the documentation associated
+ * This file contains the functions you need to implement.
+ * Please make sure to read the documentation associated
  * with each function and provide a sensible implementation.
  */
 
 /**
- * Write a function called add that takes two Int parameters
- * and returns their sum.
+ * Write a function called add that takes two Int parameters and returns their sum.
  *
  * @param a operand a
  * @param b operand b
@@ -19,8 +18,6 @@ fun add(a: Int, b: Int): Int = TODO()
 /**
  * Write a function that returns the inclusive Range from start to end.
  *
- * HINT: Look at the Scaladoc for Int/RichInt to find the answer.
- *
  * @param start the start of the range
  * @param end the end of the range
  * @return the inclusive Range from start to end
@@ -29,8 +26,6 @@ fun inRange(start: Int, end: Int): IntRange = TODO()
 
 /**
  * Write a function that returns a Range of odd n odd integers starting at 1.
- *
- * HINT: Look at the Scaladoc for Int/RichInt to find the answer.
  *
  * @param n the number of odd integers in the range
  * @return a Range of odd integers, excluding the last add integer
@@ -82,9 +77,7 @@ fun minFor(r: Array<Int>): Int = TODO()
 fun minRecursive(r: Array<Int>): Int = TODO()
 
 /**
- * Return the base 36 equivalent of the BitInt b.
- *
- * HINT: Poke around Scaladoc to find a way of doing this in Scala.
+ * Return the base 36 equivalent of the BigInteger b.
  *
  * @param b a big integer
  * @return the base 36 equivalent
@@ -128,9 +121,6 @@ fun splitInHalf(s: String): Pair<String, String> = TODO()
  * between upper and lowercase, you should not consider
  * spaces, and you should eliminate the punctuation
  * characters . ? , ; ! - '.
- *
- * HINT: You should consult the Scaladoc for String and
- * StringOps to help you with your solution.
  *
  * @param s the potential palindrome
  * @return true if s is a palindrome; false otherwise
