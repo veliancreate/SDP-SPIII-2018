@@ -1,6 +1,7 @@
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.ExpectedException
+import solution.PascalsTriangle
 import kotlin.test.assertEquals
 
 class PascalsTriangleTest {

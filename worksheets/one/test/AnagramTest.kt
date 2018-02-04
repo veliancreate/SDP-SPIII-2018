@@ -1,5 +1,6 @@
 import org.junit.Ignore
 import org.junit.Test
+import solution.Anagram
 import kotlin.test.assertEquals
 
 class AnagramTest {

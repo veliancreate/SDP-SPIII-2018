@@ -1,5 +1,6 @@
 import org.junit.Test
 import org.junit.Ignore
+import solution.Accumulate
 import kotlin.test.assertEquals
 
 class AccumulateTest {

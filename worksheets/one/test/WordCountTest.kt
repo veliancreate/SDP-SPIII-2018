@@ -1,5 +1,6 @@
 import org.junit.Test
 import org.junit.Ignore
+import solution.WordCount
 import kotlin.test.assertEquals
 
 class WordCountTest {

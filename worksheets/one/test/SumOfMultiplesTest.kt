@@ -1,4 +1,5 @@
 import org.junit.Test
+import solution.SumOfMultiples
 import kotlin.test.assertEquals
 
 class SumOfMultiplesTest {

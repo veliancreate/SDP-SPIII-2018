@@ -1,6 +1,7 @@
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
+import solution.Hexadecimal
 import kotlin.test.assertEquals
 
 @RunWith(Parameterized::class)
