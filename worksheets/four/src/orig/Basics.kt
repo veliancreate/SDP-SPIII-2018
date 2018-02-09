@@ -1,3 +1,5 @@
+package orig
+
 import java.math.BigInteger
 
 /**
@@ -61,7 +63,7 @@ fun minWhile(r: Array<Int>): Int = TODO()
 fun minFor(r: Array<Int>): Int = TODO()
 
 /**
- * Write a function called minRecursive that returns the minimum integer in the Array r.
+ * Write a function called orig.minRecursive that returns the minimum integer in the Array r.
  *
  * Your implementation must conform to the following rules:
  *
@@ -91,7 +93,7 @@ fun base36(b: BigInteger): String = TODO()
  * half of the string and e is the last half of the string.
  *
  * For example,
- *   splitInHalf("abcfun") => ("abc", "fun")
+ *   orig.splitInHalf("abcfun") => ("abc", "fun")
  *   splitInFalf("abcde")  => ("ab", "cde")
  *
  * Your implementation must conform to the following rules:

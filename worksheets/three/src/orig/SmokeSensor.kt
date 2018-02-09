@@ -1,3 +1,5 @@
+package orig
+
 class SmokeSensor() : Sensor {
     override fun isTriggered(): Boolean {
         TODO("not implemented")

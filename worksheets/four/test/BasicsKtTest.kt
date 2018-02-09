@@ -2,9 +2,9 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import orig.*
 import java.math.BigInteger
 import java.util.*
-import kotlin.test.assertTrue
 
 class BasicsKtTest {
     lateinit var n: Random
@@ -28,7 +28,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The inRange function should return an inclusive range
+     * The orig.inRange function should return an inclusive range
      */
     @Test
     fun inRangeTest() {
@@ -42,7 +42,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The oddRange function should return a range of all odd integers from 1 to n"
+     * The orig.oddRange function should return a range of all odd integers from 1 to n"
      */
     @Test
     fun oddRangeTest() {
@@ -56,7 +56,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The minWhile function should return the minimum integer in an array using a while loop
+     * The orig.minWhile function should return the minimum integer in an array using a while loop
      */
     @Test
     fun minWhileTest() {
@@ -66,7 +66,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The minFor function should return the minimum integer in an array using a for loop
+     * The orig.minFor function should return the minimum integer in an array using a for loop
      */
     @Test
     fun minForTest() {
@@ -76,7 +76,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The minRecursive function should return the minimum integer in an array using recursion
+     * The orig.minRecursive function should return the minimum integer in an array using recursion
      */
     @Test
     fun minRecursiveTest() {
@@ -86,7 +86,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The base36 function should return the base 36 equivalent of the given BigInt
+     * The orig.base36 function should return the base 36 equivalent of the given BigInt
      */
     @Test
     fun base36Test() {
@@ -96,7 +96,7 @@ class BasicsKtTest {
     }
 
     /**
-     * The splitInHalf function should split a string in half
+     * The orig.splitInHalf function should split a string in half
      */
     @Test
     fun splitInHalfTest() {
@@ -110,7 +110,7 @@ class BasicsKtTest {
     }
 
     /**
-     * isPalindrome should return true if a string is a palindrome
+     * orig.isPalindrome should return true if a string is a palindrome
      */
     @Test
     fun isPalindromeTest() {

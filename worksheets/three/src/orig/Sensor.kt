@@ -1,3 +1,5 @@
+package orig
+
 interface Sensor {
     /**
      * returns true/false for whether the sensor is triggered or not.

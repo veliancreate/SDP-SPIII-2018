@@ -1,5 +1,7 @@
 import org.junit.Before
 import org.junit.Test
+import orig.FireSensor
+import orig.Sensor
 import kotlin.test.assertEquals
 
 class FireSensorTest  {

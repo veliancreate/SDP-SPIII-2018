@@ -1,10 +1,10 @@
-import java.util.function.Predicate
+package orig
 
 fun <T> tail(l: List<T>): List<T> = TODO()
 
 fun <T> setHead(l: List<T>, item: T): List<T> = TODO()
 
-fun <T> drop(l: List<T>, n: T): List<T> = TODO()
+fun <T> drop(l: List<T>, n: Int): List<T> = TODO()
 
 fun <T> init(l: List<T>): List<T> = TODO()
 
@@ -14,7 +14,7 @@ fun <T> sum(l: List<T>) : T = TODO()
 
 fun <T> product(l: List<T>) : T = TODO()
 
-fun <T> length(l: List<T>) : T = TODO()
+fun <T> length(l: List<T>) : Int = TODO()
 
 fun <T> reverse(l: List<T>): List<T> = TODO()
 
