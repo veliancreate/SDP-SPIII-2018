@@ -1,8 +1,9 @@
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
+import org.junit.Ignore
 import org.junit.Test
-import orig.*
+import solution.*
 import java.math.BigInteger
 import java.util.*
 
@@ -32,11 +33,15 @@ class BasicsKtTest {
      */
     @Test
     fun inRangeTest() {
-        for (n in 1..1000) {
-            val r = inRange(1, n)
-            assertTrue("The first element in your range is not 1", r.start == 1)
-            for (v in r) {
-                assertTrue("You have a non-odd value $v in your range", v % 2 == 1)
+        for (i in 1..1000) {
+            for (j in 1..1000) {
+                if (j > i) {
+                    val r = inRange(i, j)
+                    val head = r.take(1).get(0)
+                    val last = r.last
+                    assertEquals("The first element in your range ($head) does not match the expected value $i", i, head)
+                    assertEquals("The last element in your range ($last) does not match the expected value $j", j, last)
+                }
             }
         }
     }
@@ -129,6 +134,7 @@ class BasicsKtTest {
     /**
      * For you to complete...
      */
+    @Ignore
     @Test
     fun wordCounter() {
         TODO()
