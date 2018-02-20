@@ -6,19 +6,14 @@ import java.lang.reflect.Modifier
 
 class Spy private constructor(var thisClass: Class<*>) {
     var className: String
-    var fields: Array<Field>
-    var methods: Array<Method>
-    var atBeginningOfLine: Boolean = false
+    var atBeginningOfLine: Boolean = true
     var level = 0
     var aaaaa: String
+
     internal var packageInt: Int = 0
 
     init {
-        atBeginningOfLine = true
         aaaaa = "Not used, really."
-    }
-
-    init {
         className = thisClass.name
     }
 
@@ -26,7 +21,7 @@ class Spy private constructor(var thisClass: Class<*>) {
     private constructor(className: String) : this(Class.forName(className)) {
     }
 
-    internal fun printAll(args: Array<String>) {
+    fun printAll(args: Array<String>) {
         println("----------------------------")
         if (args.size == 0) {
             printClass()
@@ -78,7 +73,7 @@ class Spy private constructor(var thisClass: Class<*>) {
 
     @Throws(SecurityException::class)
     private fun printMethods() {
-        methods = thisClass.methods
+        val methods = thisClass.methods
         writeln("// Methods:")
         indent()
         for (m in methods) {
@@ -89,7 +84,7 @@ class Spy private constructor(var thisClass: Class<*>) {
         exdent()
     }
 
-    internal fun printClassHeader() {
+    fun printClassHeader() {
         val sc = thisClass.superclass
         val classModifiers = thisClass.modifiers
 
@@ -116,8 +111,8 @@ class Spy private constructor(var thisClass: Class<*>) {
         writeln("}")
     }
 
-    internal fun printFields() {
-        fields = thisClass.fields
+    fun printFields() {
+        val fields = thisClass.fields
         writeln("// Fields:")
         indent()
         for (f in fields) {
@@ -173,6 +168,7 @@ class Spy private constructor(var thisClass: Class<*>) {
     fun printParameters(parameters: Array<Class<*>>) {
         if (parameters.size == 0)
             return
+
         write(decodeType(parameters[0].name))
         for (cl in parameters) {
             write(", " + simplifyName(decodeType(cl.name)))
@@ -192,12 +188,12 @@ class Spy private constructor(var thisClass: Class<*>) {
             serialVersionUID = 1L
         }
 
-        internal fun getSpy(c: Class<*>): Spy {
+        fun getSpy(c: Class<*>): Spy {
             return Spy(c)
         }
 
         @Throws(ClassNotFoundException::class)
-        internal fun getSpy(className: String): Spy {
+        fun getSpy(className: String): Spy {
             return Spy(className)
         }
 
