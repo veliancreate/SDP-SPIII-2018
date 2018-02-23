@@ -5,7 +5,6 @@ package two
 interface Plant
 
 class OrangePlant : Plant
-
 class ApplePlant : Plant
 
 abstract class PlantFactory {

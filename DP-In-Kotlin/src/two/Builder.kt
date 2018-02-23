@@ -2,25 +2,17 @@ package two
 
 import java.io.File
 
-// Let's assume that two.Dialog class is provided by external library.
-// We have only access to two.Dialog public interface which cannot be changed.
+// Let's assume that the Dialog class is provided by external library.
+// We have only access to Dialog public interface which cannot be changed.
 
 class Dialog() {
-
     fun showTitle() = println("showing title")
-
     fun setTitle(text: String) = println("setting title text $text")
-
     fun setTitleColor(color: String) = println("setting title color $color")
-
     fun showMessage() = println("showing message")
-
     fun setMessage(text: String) = println("setting message $text")
-
     fun setMessageColor(color: String) = println("setting message color $color")
-
     fun showImage(bitmapBytes: ByteArray) = println("showing image with size ${bitmapBytes.size}")
-
     fun show() = println("showing two.dialog $this")
 }
 
@@ -80,7 +72,6 @@ fun dialog(init: DialogBuilder.() -> Unit): Dialog {
 }
 
 fun main(args: Array<String>) {
-
     val dialog: Dialog = dialog {
         title {
             text = "two.Dialog Title"
@@ -93,6 +84,5 @@ fun main(args: Array<String>) {
             File.createTempFile("image", "jpg")
         }
     }
-
     dialog.show()
 }
