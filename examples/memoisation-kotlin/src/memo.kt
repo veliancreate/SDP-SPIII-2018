@@ -10,6 +10,5 @@ fun <A, B> memo(f: (A) -> B): (A) -> B {
             }
             else -> result
         }
-
     }
 }

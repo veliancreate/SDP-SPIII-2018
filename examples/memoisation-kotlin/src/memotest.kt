@@ -12,3 +12,9 @@ fun main(args: Array<String>) {
     println(memolength(listOf<Int>(1, 2, 3, 4, 5, 6, 7)))
     println(memolength(listOf<Int>(1, 2, 3, 4, 5, 6, 7)))
 }
+
+fun <A,B> myFun(x:A): B = TODO()
+
+fun fib(n: Int): Int =
+        if (n <= 2) 1 else fib(n - 1) + fib(n - 2)
+
